@@ -73,9 +73,16 @@
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>
-               
         </plugins>
     </build>
+
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/sercancelenk/java17-either-mapleft</url>
+    </repository>
+  </distributionManagement>
 
 
 </project>
